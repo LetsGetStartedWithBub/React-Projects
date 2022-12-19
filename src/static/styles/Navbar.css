@@ -1,0 +1,42 @@
+:root{
+    --primary-blue: #B8E8FC;
+    --primary-peach: #F7A4A4;
+    --primary-green: #B6E388;
+    --dark-blue: #495579;
+    --primary-white: #FFFBEB;
+    --primary-purple: #42032C;
+  }
+.navbar{
+    display: flex;
+  }
+.navbar-brand {
+    width : 14.25rem;
+    max-width : 17.25;
+    padding : 0 !important;
+    height : 4rem !important;
+}  
+nav.navbar {
+    padding: 18px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    display: flex;
+    transition:  0.32s ease-in-out;
+  }
+  nav.navbar.scrolled {
+    padding: 0px 0;
+    background-color: #121212;
+  }
+  nav.navbar a.navbar-brand {
+      width: 9%;
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    color: var(--dark-blue);
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 25px;
+    font-size: 18px;
+  }
